@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Vue.js Developer",
+    "company": "TechCorp",
+    "category": "Frontend",
+    "salary": "$60,000 - $80,000",
+    "description": "We are looking for a Vue.js developer to join our team. Responsibilities include building user interfaces, implementing components, and ensuring a smooth user experience.",
+    "requirements": [
+      "2+ years of Vue.js experience",
+      "Understanding of modern JavaScript",
+      "Experience with Vuex or Pinia",
+      "Knowledge of HTML/CSS"
+    ],
+    "location": "Remote",
+    "posted": "2023-07-01"
+  },
+  {
+    "id": 2,
+    "title": "Nuxt.js Engineer",
+    "company": "StartupX",
+    "category": "Full Stack",
+    "salary": "$70,000 - $90,000",
+    "description": "Build amazing applications using Nuxt.js! We're seeking a talented engineer to develop and maintain our Nuxt.js applications.",
+    "requirements": [
+      "3+ years of Vue.js experience",
+      "1+ year of Nuxt.js experience",
+      "Experience with SSR and SSG",
+      "Backend knowledge with Node.js"
+    ],
+    "location": "New York, NY",
+    "posted": "2023-07-10"
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "company": "DataFlow",
+    "category": "Backend",
+    "salary": "$75,000 - $95,000",
+    "description": "Join our backend team to build robust API services and database solutions for our enterprise clients.",
+    "requirements": [
+      "Proficiency in Node.js or Python",
+      "Experience with RESTful APIs",
+      "Database design and optimization",
+      "Understanding of microservices architecture"
+    ],
+    "location": "San Francisco, CA",
+    "posted": "2023-06-28"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Designer",
+    "company": "CreativeTech",
+    "category": "UI/UX",
+    "salary": "$65,000 - $85,000",
+    "description": "Design beautiful and functional interfaces for web and mobile applications. Work closely with development teams to implement your designs.",
+    "requirements": [
+      "Portfolio showcasing UI/UX design work",
+      "Proficiency in Figma or Adobe XD",
+      "Understanding of user-centered design principles",
+      "Experience working with development teams"
+    ],
+    "location": "Remote",
+    "posted": "2023-07-05"
+  },
+  {
+    "id": 5,
+    "title": "Angular Full Stack ",
+    "company": "WebSolutions",
+    "category": "Full Stack",
+    "salary": "$80,000 - $100,000",
+    "description": "Develop modern web applications using JavaScript technologies across the stack. From frontend to backend, you'll be involved in all aspects of the development process.",
+    "requirements": [
+      "Experience with React, Vue, or Angular",
+      "Node.js backend development",
+      "Database experience (MongoDB, PostgreSQL)",
+      "Understanding of cloud services (AWS, GCP)"
+    ],
+    "location": "Austin, TX",
+    "posted": "2023-07-12"
+  },
+  {
+    "id": 6,
+    "title": "Frontend React Developer",
+    "company": "AppFactory",
+    "category": "Frontend",
+    "salary": "$70,000 - $90,000",
+    "description": "Build responsive and interactive user interfaces using React and modern frontend tools.",
+    "requirements": [
+      "2+ years of React experience",
+      "Proficiency with hooks and context API",
+      "State management with Redux or similar",
+      "CSS-in-JS experience"
+    ],
+    "location": "Chicago, IL",
+    "posted": "2023-07-08"
+  }
+]
