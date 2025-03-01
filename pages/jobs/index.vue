@@ -1,5 +1,5 @@
 <template>
-  <div class="p-7 h-screen overflow-y-auto">
+  <div class="h-[90vh]">
     <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">
       Available Jobs
     </h1>
@@ -22,7 +22,7 @@
 
     <div
       v-else
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-10"
     >
       <JobCard v-for="job in filteredJobs" :key="job.id" :job="job" />
     </div>

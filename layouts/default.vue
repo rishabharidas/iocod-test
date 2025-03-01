@@ -1,8 +1,8 @@
 <template>
   <div
-    class="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+    class="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 relative"
   >
-    <header class="bg-white dark:bg-gray-800 shadow-md">
+    <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-10">
       <div
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
       >
@@ -23,11 +23,13 @@
         </nav>
       </div>
     </header>
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 h-full">
+    <main
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 h-full overflow-y-auto"
+    >
       <slot />
     </main>
     <footer
-      class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700"
+      class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 w-full bottom-0"
     >
       <div
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-gray-500 dark:text-gray-400"
