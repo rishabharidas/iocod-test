@@ -1,5 +1,5 @@
 <template>
-  <div class="p-7 h-[78vh]">
+  <div class="p-7 h-screen overflow-y-auto">
     <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">
       Available Jobs
     </h1>

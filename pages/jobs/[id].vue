@@ -1,5 +1,5 @@
 <template>
-  <div v-if="job" class="max-w-3xl mx-auto p-7 h-[77vh]">
+  <div v-if="job" class="max-w-3xl mx-auto p-7 h-screen overflow-y-auto">
     <div class="mb-6">
       <NuxtLink
         to="/jobs"
